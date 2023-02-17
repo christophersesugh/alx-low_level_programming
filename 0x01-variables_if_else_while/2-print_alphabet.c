@@ -8,13 +8,13 @@ int main(void)
 {
 	int i;
 	char* alphabets = "abcdefghijklmnopqrstuvwxyz";
-	char* line_break = "\n";
+	char* l = alphabets;
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alphabets[i]);
+		putchar((int) *l);
 	}
-	putchar(line_break);
+	putchar("\n");
 
 	return (0);
 }
