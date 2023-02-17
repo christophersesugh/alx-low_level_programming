@@ -5,13 +5,15 @@
  * main - Project entry point
  * Return: 0 (Success)
  */
+int last_digit;
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int last_digit = n % 10;
+	last_digit = n % 10;
 
 	if (last_digit == 0)
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
