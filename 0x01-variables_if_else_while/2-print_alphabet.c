@@ -7,14 +7,13 @@
 int main(void)
 {
 	int i;
-	char* alphabets = "abcdefghijklmnopqrstuvwxyz";
-	char* l = alphabets;
+	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar((int) *l);
+		putchar(alphabets[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
