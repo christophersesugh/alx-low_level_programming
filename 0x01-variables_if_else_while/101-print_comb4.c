@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i, j, k;
-
 	i = j = k = 48;
 
 	while (i < 58)
@@ -17,7 +16,7 @@ int main(void)
 		while (j < 58)
 		{
            	 	k = 48;
-            		while(k < 58)
+            		while (k < 58)
             		{
                			if ((i != j && j != k && i != k) && (i < j && j < k))
                 		{
