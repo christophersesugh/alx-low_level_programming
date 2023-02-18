@@ -24,16 +24,12 @@ int main(void)
                    			putchar(j);
                     			putchar(k);
 
-                    			if (i == 57 && j == 56 && k == 55)
+                    			if (i == 55 && j == 56 && k == 57)
                     			{
                         			break;
                    			}
-					else
-					{		
-						putchar(',');
-                   				putchar(' ');
-
-					}
+					putchar(',');
+					putchar(' ');
                			 }
                 		 k++;
             		}
