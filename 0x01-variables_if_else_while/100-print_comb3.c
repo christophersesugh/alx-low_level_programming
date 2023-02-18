@@ -10,6 +10,7 @@ int main(void)
 
 	while (i < 58)
 	{
+		i = 48;
 		while (j < 58)
 		{
 			if ((i != j) && (i < j))
