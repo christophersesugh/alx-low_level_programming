@@ -28,8 +28,12 @@ int main(void)
                     			{
                         			break;
                    			}
-                    			putchar(',');
-                   			putchar(' ');
+					else
+					{		
+						putchar(',');
+                   				putchar(' ');
+
+					}
                			 }
                 		 k++;
             		}
