@@ -1,38 +1,31 @@
 #include <stdio.h>
 
 /**
- * main - Prints combination of  numbers between 00 to 89.
+ * main - Prints combination of  numbers between 00 to 99.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j, k;
+	int i = 0, j = 0;
 
-	i = j = k = 48;
-
-	while (i < 58)
+	while (i <= 99)
 	{
-		j = 48;
-		while (j < 58)
+		j = i + 1;
+		while (j <= 99)
 		{
-			k = 48;
-			while (k < 58)
+			if(i != j && i < j)
 			{
-				if ((i != j && j != k && i != k) && (i < j && j < k && i < k))
-				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
-
-					if (i == 55 && j == 56 && k == 57)
-					{
-						break;
-					}
-					putchar(',');
-					putchar(' ');
-				}
-				k++;
+			
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
+				putchar(' ');
+				putchar(j / 10 + '0');
+				putchar(j / 10 + '0');
+				if(i == 98 && j == 99)
+					break;
+				putchar(',');
+				putchar(' ');
 			}
 			j++;
 		}
