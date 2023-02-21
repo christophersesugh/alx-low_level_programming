@@ -1,18 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - Print lower case alphabets from a - z
+ * @char_code: ASCII character code
+ * @last_char_code: Last ASCII character code in the given range.
  * Return: Always 0.
  */
-void print_alphabet();
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-void print_alphabet()
+void print_alphabet(void)
 {
 	int char_code, last_char_code = 123;
 
