@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int char_codes[] = {95,70,117,116,99,104,97,114};
+	int char_codes[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int idx, size;
 
 	size = sizeof(char_codes) / sizeof(int);
