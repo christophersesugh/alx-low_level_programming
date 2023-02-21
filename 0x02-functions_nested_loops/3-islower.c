@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Check for lower characters
+ * _islower - Check for lower characters
  * @c: Character to be checked
  * Return: Always 0
  */
@@ -13,7 +13,7 @@ int _islower(int c)
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 	_putchar('\n');
 }
