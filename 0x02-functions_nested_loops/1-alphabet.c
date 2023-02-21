@@ -2,8 +2,6 @@
 
 /**
  * print_alphabet - Print lower case alphabets from a - z
- * @char_code: ASCII character code
- * @last_char_code: Last ASCII character code in the given range.
  * Return: Always 0.
  */
 
