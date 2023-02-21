@@ -1,18 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet_x10  - Print lower case alphabets from a - z 10 times
  * Return: Always 0
  */
-void print_alphabet_x10();
-
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	int idx, char_code;
 	for (idx = 0; idx < 10; idx++)
