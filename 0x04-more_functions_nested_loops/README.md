@@ -9,4 +9,4 @@ work.
 This section contain `10` mandatory tasks and `2` advanced tasks:
 | Filename | Description |
 | -------- | ----------- |
-| 0-isupper.c | Checks for uppercase characters |
+| `0-isupper.c` | Checks for uppercase characters |
