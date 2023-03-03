@@ -19,4 +19,7 @@ This section contain `10` mandatory tasks and `2` advanced tasks:
 | `7-print_diagonal.c` | Draws a diagonal line on the terminal. |
 | `8-print_square.c` |Prints a square, followed by a new line.  |
 | `9-fizz_buzz.c` |Prints the numbers from `1` to `100`, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.  |
+| `10-print_triangle.c` | Prints a triangle, followed by a new line. |
+| `100-prime_factor.c` |Write a program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line. |
+| `101-print_number.c` |Prints an integer. |
 | `main.h` | contain header files for the entire project |
