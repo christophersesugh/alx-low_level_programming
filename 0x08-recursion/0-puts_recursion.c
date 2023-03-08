@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * _puts_recursion - prints a string using recursion
@@ -7,7 +7,7 @@
  */
 void _puts_recursion(char *s)
 {
-	if (*c == '\0')
+	if (*c == "" || *c == '\0')
 	{
 		_putchar('\n');
 		return;
