@@ -5,13 +5,13 @@
  * @s: string length to be returned
  * Return: length of a string
  */
-int str_len(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 	{
 		return (0);
 	}
-	return (1+str_len(s + 1));
+	return (1 + _strlen_recursion(s + 1));
 }
 
 /**
@@ -21,7 +21,7 @@ int str_len(char *s)
  */
 int is_palindrome(char *s)
 { 
-	int len = str_len(s);
+	int len = _strlen_recursion(s);
 
 	if (len <= 1)
 	{
