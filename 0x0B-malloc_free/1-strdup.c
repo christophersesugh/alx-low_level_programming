@@ -11,7 +11,10 @@ char *_strdup(char *str)
 	char *copy;
 	size_t len, i;
 
-
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	len = 0;
 	while (str[len] != '\0')
 	{
@@ -29,6 +32,5 @@ char *_strdup(char *str)
 	{
 		copy[i] = str[i];
 	}
-	free(copy);
 	return (copy);
 }
