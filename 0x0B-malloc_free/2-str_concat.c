@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL || s2 == NULL)
 	{
-		return (NULL);
+		return ("");
 	}
 
 	len1 = 0;
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		s3[i] = s1[i];
 	}
-	for (; i < (len1 + len2); i++)
+	for (i = len1; i < len2; i++)
 	{
 		s3[i] = s2[i];
 	}
