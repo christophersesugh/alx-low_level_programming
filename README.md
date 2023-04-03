@@ -31,3 +31,4 @@ All of the following folders are projects done during the course:
 |[`0x0E-structures_typedef`](/0x0E-structures_typedef/)|It aims at teaching about structures and `typedef` in C|
 |[`0x0F-function_pointers`](/0x0F-function_pointers/)|It aims at teaching about function pointers in C|
 |[`0x10-variadic_functions`](/0x10-variadic_functions/)|It aims at teaching about variadic functions in C|
+|[`0x12-singly_linked_lists`](/0x12-singly_linked_lists/)|It aims at teaching about singly linked lists|
